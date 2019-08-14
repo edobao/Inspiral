@@ -1,2 +1,5 @@
-var moodbutton = $('.mood');
-var homebutton = $('.home');
+var extrableh = ["If people are doubting how far you can go, go so far that you can't hear them anymore. - Michele Ruiz", "Don't compare your life to others. There's no comparison between the sun and the moon, they shine when it's their time. -Unknown", ""]
+var bleh = ["We are all in the gutter, but some of us are looking at the stars. - Oscar Wilde", "The only person you should try to be better than is the person you were yesterday. - Unknown", ""]
+var meh = ["Make your life a masterpiece, imagine no limitations on what you can be, have, or do. - Brian Tracy", "Creativity takes courage. - Henri Matisse", ]
+var yeh = ["Be somebody who makes everybody feel like a somebody. - Courtney Shields", "I find beauty in unusual things, like hanging your head out the window or sittong"]
+var extrayeh = ["Mind your own biscuits and life will be gravy. - Unknown", ""]
