@@ -25,6 +25,7 @@ h1 {
 
 /*Contains the entire index.html element set*/
 .paper {
+  border-left: 5px solid black;
  display: inline-block;
    position: relative;
    width: 595px;
@@ -66,6 +67,7 @@ footer a {
    color: rgba(255,255,255,.8);
 }
 .paper2 {
+  border-right: 5px solid black;
 display: inline-block;
    position: relative;
    width: 600px;
@@ -129,6 +131,7 @@ footer a {
 
 .slidecontainer {
   width: 100%; /* Width of the outside container */
+  margin: 100px 30px 100px 0;
 }
 
 /* The slider itself */
@@ -136,13 +139,13 @@ footer a {
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
   width: 100%; /* Full-width */
-  height: 25px; /* Specified height */
-  background: #d3d3d3; /* Grey background */
+  height: 10px; /* Specified height */
+  background: #f2f4f7; /* Grey background */
   outline: none; /* Remove outline */
   opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
   -webkit-transition: .2s; /* 0.2 seconds transition on hover */
   transition: opacity .2s;
-  radius: 10px;
+  border-radius: 25px;
 }
 
 /* Mouse-over effects */
@@ -156,8 +159,9 @@ footer a {
   appearance: none;
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #4CAF50; /* Green background */
+  background: lightblue; /* Green background */
   cursor: pointer; /* Cursor on hover */
+  border-radius: 50%;
 }
 
 .slider::-moz-range-thumb {
