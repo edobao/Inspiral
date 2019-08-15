@@ -7,3 +7,25 @@ var extrayeh = ["Mind your own biscuits and life will be gravy. - Unknown", "Her
 var tipday = ["Try to get everything done in the morning so you have a free evening to hang out with friends and watch Netflix.", "Write out a to-do list and a time you hope to finish each goal.", "Clean off your desk except for all the materials you will need. Put your phone in another room, and start working.", "Look up work music on Youtube and start at it. Sometimes all you need to do is begin and before you know it hours will have gone by.", "Work for 45 minutes and then take a break for 5-15 minutes, then repeat until all your work is done."]
 var tipweek = [""]
 var year = ["Make a mood board with pictures to represent what you want to get done (ex: a weight for exercise) and put it in a place that you will see everyday.", "Make a mind map at the beginning of the year with branches for spiritual health, physical health, religion, family,   "]
+
+var button = $('.day');
+var tip = tipday[Math.floor(Math.random() * tipday.length)];
+var section = $('.section')
+
+button.on("click", showDay);
+function showDay() {
+    event.preventDefault();
+    console.log(tip);
+    section.append(`${tip}</p>`);
+}
+
+var buttonweek = $('.week');
+var wek = tipweek[Math.floor(Math.random() * tipweek.length)];
+var section = $('.section')
+
+buttonweek.on("click", showWeek);
+function showWeek() {
+    event.preventDefault();
+    console.log(wek);
+    section.append(`${wek}</p>`);
+}
