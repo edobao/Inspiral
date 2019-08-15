@@ -295,27 +295,3 @@ border-radius: 10px;
 }
 
 /*ok face*/
-
-table {
-	font-size: 1em;
-}
-
-.description {
-  width: 600px;
-  margin: 0 auto 40px auto;
-}
-
-.mood-text {
-  font-size: 22px;
-  color: red;
-  border: none;
-  background: transparent;
-  width: 100%;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-.mood-labels {
-  margin-top: 15px;
-}
