@@ -138,6 +138,19 @@ ol li a{color:#fff;}
 
 
 /*Contains the entire index.html element set*/
+.home-btn {
+  position: absolute;
+  left: 20px;
+  width: 100px;
+  height: 500px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  vertical-align: text-bottom;
+
+}
+
 .paper {
   border-left: 5px solid #dcb68a;
  display: inline-block;
