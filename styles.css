@@ -17,16 +17,16 @@ h1 {
  margin: 14px;
 }
 
-img {
+/*img {
   color: lightblue;
+  padding: 10px;
+  margin-left: 2px;*/
 }
 
 .section {
-  text-align: center;
-  font-family: 'Roboto' , sans-serif;
-  color: blue;
 
 }
+
 .day {
   background-color:#ffc;
   border: none;
@@ -78,8 +78,8 @@ ul{
 ul li a{
   background:#ffc;
   display:block;
-  height:190px;
-  width:190px;
+  height:200px;
+  width:200px;
   padding:2px;
   -moz-box-shadow:10px 5px 5px rgba(33,33,33,1);
   -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
@@ -142,10 +142,10 @@ ol li a{color:#fff;}
   border-left: 5px solid #dcb68a;
  display: inline-block;
    position: relative;
-   width: 595px;
+   width: 650px;
    max-width: 800px;
    min-width: 400px;
-   height: 700px;
+   height: 800px;
    margin: 0 auto;
    background: #FFFFFF;
    border-radius: 10px;
@@ -184,10 +184,10 @@ footer a {
   border-right: 5px solid #dcb68a;
 display: inline-block;
    position: relative;
-   width: 600px;
+   width: 650px;
    max-width: 800px;
    min-width: 400px;
-   height: 700px;
+   height: 800px;
    margin: 0 auto;
    background: #FFFFFF;
    border-radius: 10px;
