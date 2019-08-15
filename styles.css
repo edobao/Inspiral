@@ -138,14 +138,7 @@ ol li a{color:#fff;}
 
 
 /*Contains the entire index.html element set*/
-.home-btn {
 
-  background-color: red;
-  width: 100px;
-  height: 100px;
-border-radius: 10px;
-
-}
 
 .paper {
   border-left: 5px solid #dcb68a;
@@ -251,6 +244,13 @@ footer a {
    color: rgba(255,255,255,.8);
 }
 
+.home-btn {
+
+  background-color: red;
+  width: 100px;
+  height: 100px;
+border-radius: 10px;
+}
 
 .slidecontainer {
   width: 100%; /* Width of the outside container */
@@ -264,10 +264,10 @@ footer a {
   width: 100%; /* Full-width */
   height: 10px; /* Specified height */
   background: #f2f4f7; /* Grey background */
-  outline: none; /* Remove outline */
-  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-  transition: opacity .2s;
+/ outline: none; /* Remove outline */
+/ opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+/ -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+/ transition: opacity .2s;
   border-radius: 25px;
 }
 
@@ -276,20 +276,46 @@ footer a {
   opacity: 1; /* Fully shown on mouse-over */
 }
 
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+ /*The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none; /* Override default look */
   appearance: none;
-  width: 25px; /* Set a specific slider handle width */
+ width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
   background: lightblue; /* Green background */
   cursor: pointer; /* Cursor on hover */
-  border-radius: 50%;
+ border-radius: 50%;
 }
 
 .slider::-moz-range-thumb {
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #4CAF50; /* Green background */
+    background: #4CAF50; /* Green background */
   cursor: pointer; /* Cursor on hover */
+}
+
+/*ok face*/
+
+table {
+	font-size: 1em;
+}
+
+.description {
+  width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.mood-text {
+  font-size: 22px;
+  color: red;
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.mood-labels {
+  margin-top: 15px;
 }
