@@ -47,9 +47,10 @@
 //      $("#mood").val(steps[$("#slider").slider("value")]);
 //  });
 
-var slide = document.getElementById('slide'),
+var slide = document.getElementById('slide');
     sliderDiv = document.getElementById("sliderAmount");
 
 slide.onchange = function() {
     sliderDiv.innerHTML = this.value;
+    console.log('Hello');
 }​
