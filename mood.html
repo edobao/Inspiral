@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <form>
-  <input type="home-btn" onclick="location.href='index.html';" value="Home" />
-</form>
-    <div class="paper">
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <div class="paper">
     <h1>Inspiral</h1>
-    <div class="paper-content">
-</div>
-</div>
-<div class="paper2">
-<center><h1 id="headermood">How Are You Today?</h1></center>
-<div class="paper2-content">
-  <div class="container text-center">
-  <img src="https://res.cloudinary.com/dv2ytxq4z/image/upload/v1489289355/average_t4kd0z.png" alt="Isa lab" id="mood-icon" />
+    <div class="paper-content"></div>
+    <form>
+      <input class="home-btn" type="button" onclick="location.href='index.html';" value="Home Page" />
+    </form>
   </div>
-<p class="quote"> </p>
-<input type="range" min="50" max="250" value="50" step="50" class="slider" id="slide">
-<div id="sliderAmount"></div>
-<!--<input type="text" id="mood" readonly class="mood-text">-->
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"</script>
-  //<script type="text/javascript" src="main.js"></script>
-  <script type="text/javascript" src="second.js"></script>
-  </body>
+  <div class="paper2">
+    <center><h1 id="headermood">How Are You Today?</h1></center>
+    <div class="paper2-content">
+      <div class="container text-center">
+     <!--   <img src="https://res.cloudinary.com/dv2ytxq4z/image/upload/v1489289355/average_t4kd0z.png(4 kB)
+" alt="Isa lab" id="mood-icon" />  :neutral_face: face -->
+      </div>
+      <p class="quote"></p>
+      <center><img src="https://res.cloudinary.com/dv2ytxq4z/image/upload/v1489289355/average_t4kd0z.png(4 kB)" alt="Neutral face" class="face"></center>
+      <input type="range" min="50" max="250" value="150" step="50" class="slider" id="slide">
+      <section class="sectionmd"></section>
+      <!--<input type="text" id="mood" readonly class="mood-text">-->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <!--  <script type="text/javascript" src="main.js"></script>-->
+    <script type="text/javascript" src="second.js"></script>
+  </div>  </body>
 </html>

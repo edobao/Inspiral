@@ -1,50 +1,86 @@
 body {
- margin-right: 40px;
- margin-left: 70px;
- margin-top: 40px;
- margin-bottom: 40px;
- background: #f9f9f9;
- font-family: 'Roboto', sans-serif;
+margin-right: 40px;/* 40 70 40 40*/
+margin-left: 70px;
+margin-top: 40px;
+margin-bottom: 40px;
+background: #f9f9f9;
+font-family: 'Roboto', sans-serif;
 }
-
 h1 {
- color: lightblue;
- padding: 5px;
- margin: 15px;
+color: lightblue;
+padding: 3px;
+margin: 15px;
 }
 #headertip {
- padding: 5px;
- margin: 14px;
+padding: 5px;
+margin: 14px;
 }
-
-/*img {
-  color: lightblue;
-  padding: 10px;
-  margin-left: 2px;*/
+.mood-btn {
+height:50px;
+width: 200px;
+border-radius: 2px;
+border: none;
+position: relative;
+top: 635px;
+left: 180px;
+color: white;
+background: lightblue;
+font-family: 'Noto Sans JP' , sans-serif;
+font-size: 22px;
 }
-
-.section {
-
-}
-
-.day {
-  background-color:#ffc;
+.home-btn {
+  height:50px;
+  width: 200px;
+  border-radius: 2px;
   border: none;
-  color: #fafafa;
-  padding: 75px 70px;
-  font-size: 24px;
-  font-family: 'Roboto' , sans-serif;
-  display: inline-block;
-}
-
-.week {
-  background-color:#cfc;
-  border: none;
+  position: relative;
+  top: 200px;
+  left: 230px;
   color: white;
-  padding: 75px 60px;
-  font-size: 24px;
-  font-family: 'Roboto' , sans-serif;
-  display: inline-block;
+  background: lightblue;
+  font-family: 'Noto Sans JP' , sans-serif;
+  font-size: 22px;
+}
+.section {
+  text-align: left;
+  font-size: 22px;
+padding: 20px;
+color: darkgrey;
+display: block;
+margin-left: 65px;
+margin-top: 10px;
+margin-bottom: 2px;
+font-family: "Roboto" , sans-serif;
+}
+.sectionmd {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  color: darkgrey;
+  display: block;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-family: "Roboto" , sans-serif;
+}
+  .day {
+ background-color:#ffc;
+ border: none;
+ color: #fafafa
+;
+ padding: 75px 70px;
+ font-size: 24px;
+ font-family: 'Roboto' , sans-serif;
+ display: inline-block;
+ }
+ .week {
+ background-color:#cfc;
+ border: none;
+ color: white;
+ padding: 75px 60px;
+ font-size: 24px;
+ font-family: 'Roboto' , sans-serif;
+ display: inline-block;
 }
 .month {
   background-color:#ccf;
@@ -65,7 +101,7 @@ h1 {
   display: inline-block;
 }
 .journal {
-  padding-top: 130px;
+  padding-top: 160px;
 }
 /*Sticky Notes*/
 ul,li{
@@ -92,7 +128,6 @@ ul li{
   margin:1em;
   float:left;
 }
-
 }
 ul li a{
   -webkit-transform: rotate(-6deg);
@@ -135,13 +170,9 @@ ul li a:hover,ul li a:focus{
 ol{text-align:center;}
 ol li{display:inline;padding-right:1em;}
 ol li a{color:#fff;}
-
-
 /*Contains the entire index.html element set*/
-
-
 .paper {
-  border-left: 5px solid #dcb68a;
+  border-left: 15px solid #dcb68a; /*If something goes wrong with page layout, this could be cause */
  display: inline-block;
    position: relative;
    width: 650px;
@@ -183,7 +214,7 @@ footer a {
    color: rgba(255,255,255,.8);
 }
 .paper2 {
-  border-right: 5px solid #dcb68a;
+  border-right: 15px solid #dcb68a;
 display: inline-block;
    position: relative;
    width: 650px;
@@ -232,31 +263,19 @@ display: inline-block;
    box-sizing: border-box;
    z-index: 1;
 }
-
 footer {
    margin-top: 30px;
    text-align: center;
    font-size: 12px;
    color: rgba(0,0,0,.6);
 }
-
 footer a {
    color: rgba(255,255,255,.8);
 }
-
-.home-btn {
-
-  background-color: red;
-  width: 100px;
-  height: 100px;
-border-radius: 10px;
-}
-
 .slidecontainer {
   width: 100%; /* Width of the outside container */
   margin: 100px 30px 100px 0;
 }
-
 /* The slider itself */
 .slider {
   -webkit-appearance: none;  /* Override default CSS styles */
@@ -270,12 +289,10 @@ border-radius: 10px;
 / transition: opacity .2s;
   border-radius: 25px;
 }
-
 /* Mouse-over effects */
 .slider:hover {
   opacity: 1; /* Fully shown on mouse-over */
 }
-
  /*The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none; /* Override default look */
@@ -286,12 +303,9 @@ border-radius: 10px;
   cursor: pointer; /* Cursor on hover */
  border-radius: 50%;
 }
-
 .slider::-moz-range-thumb {
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
     background: #4CAF50; /* Green background */
   cursor: pointer; /* Cursor on hover */
 }
-
-/*ok face*/
