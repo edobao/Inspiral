@@ -14,18 +14,18 @@ sliderDiv = document.getElementById("sliderAmount");
 slide.onchange = function() {
  if (this.value == 250) {
  $('.face').attr('src', 'https://res.cloudinary.com/dv2ytxq4z/image/upload/v1489289355/really-happy_r9hswo.png(5 kB)');
- (sectionmd).append(<p>${exy}</p>);
+ (sectionmd).append(`<p>${exy}</p>`);
 }else if(this.value == 200){
     $('.face').attr('src', 'https://res.cloudinary.com/dv2ytxq4z/image/upload/v1489289355/happy_k51drq.png(6 kB)');
-    (sectionmd).append(<p>${ya}</p>);
+    (sectionmd).append(`<p>${ya}</p>`);
 }else if(this.value == 150){
     $('.face').attr('src', 'https://res.cloudinary.com/dv2ytxq4z/image/upload/v1489289355/average_t4kd0z.png(4 kB)');
-    (sectionmd).append(<p>${mah}</p>);
+    (sectionmd).append(`<p>${mah}</p>`);
 }else if(this.value == 100){
     $('.face').attr('src', 'https://res.cloudinary.com/dv2ytxq4z/image/upload/v1489289355/sad_fm4jg7.png(5 kB)');
-    (sectionmd).append(<p>${ble}</p>);
+    (sectionmd).append(`<p>${ble}</p>`);
 }else if(this.value == 50){
     $('.face').attr('src', 'https://res.cloudinary.com/dv2ytxq4z/image/upload/v1489289355/really-mad_bsczhk.png(5 kB)');
-    (sectionmd).append(<p>${exb}</p>);
+    (sectionmd).append(`<p>${exb}</p>`);
 }
 }
